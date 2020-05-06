@@ -5,16 +5,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="icon" href="<%= BASE_URL %>cloud.png">
+  <title>Weather</title>
   <style>
     /*===== Initialization ====*/
     /*===== Initialization ====*/
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
     * {
       padding: 0;
       margin: 0;
       box-sizing: border-box;
       font-family: Avenir, Helvetica, Arial, sans-serif;
+      font-family: 'Balsamiq Sans', cursive;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
@@ -91,13 +93,14 @@
     /* ===== Styling Select ===== */
     ::-moz-selection {
       color: white;
-      background-color: #26a69a;
+      background-color: #45caf8;
     }
 
     ::selection {
       color: white;
-      background-color: #26a69a;
+      background-color: #45caf8;
     }
+
 
     /* ==== Remove input number Arrows ==== */
     input::-webkit-outer-spin-button,

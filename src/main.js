@@ -1,11 +1,9 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from './router/router'
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css';
 
-// import 'fullpage.js/vendors/scrolloverflow' 
-// Optional. When using scrollOverflow:true
-// import 'fullpage.scrollHorizontally.min' 
-// Optional. When using fullpage extensions
 import VueFullPage from 'vue-fullpage.js'
 
 Vue.use(VueFullPage);
